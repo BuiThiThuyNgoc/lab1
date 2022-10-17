@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name ="viewport" content = "width=device-with, initial-scale=1.0">
+    <title>MyCV</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
+:root{
+    --bgcolor:#beb8ac;
+    --blue:#2fb7fe;
+    --black:#3D3F42;
+    --white:#f4f7ff;
+    --gray:#d8dce4;
+    --lightgray:#8e8095;
+    --yellow:#d0d30c;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background: var(--bgcolor);
+}
+.clearfix{
+    clear: both;
+}
+.container{
+    width: 1000px;
+    height: 1000px;
+    margin: 100px auto;
+    background: var(--white);
+    box-shadow: 5px 21px 20px 20px var(--bgcolor);
+}
+.left-section{
+    background: var(--gray);
+    width: 320px;
+    height: 1000px;
+    float: left;
+}
+.profile{
+    overflow: hidden;
+    position: relative;
+}
+.blue-box{
+width: 257px;
+height: 407px;
+background: var(--yellow);
+margin-left: -100px;
+transform: rotateZ(48deg);
+margin-top: -178px;
+}
+.profile-img{
+    position:absolute;
+    z-index: 9;
+    width: 120px;
+    height: 120px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border: 1px solid var(--gray);
+}
+.name{
+    color: var(--black);
+    text-align: center;
+    margin-top: -34px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.info{
+    margin-top: 50px;
+}
+.heading{
+    width: 180px;
+    margin: 0 auto;
+    padding: 2px;
+    border-bottom: 1px solid var(--black);
+    border-top: 1px solid var(--black);
+    color: var(--black);
+    margin-top: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.p1{
+    width: 350px;
+    color: var(--black);   
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 20px
+}
+.p1 span{
+    font-size: 12px;
+}
+.right-section{
+    padding: 40px 30px;
+    background: var(--white);
+    width: 68%;
+    height: 1000px;
+    float: left;
+}
+.right-heading{
+    width: 650px;
+    margin: 0 auto;
+    padding: 2px;
+    border-bottom: 1px solid var(--black); 
+    border-top: 1px solid var(--black);
+    color: var(--black);
+    margin-top: 11px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.p2{
+    margin: 0 auto;
+    padding: 2px;
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 50px;
+    line-height: 18px;
+}
+.box_1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.left{
+    width: 25%;
+    float: left;
+    line-height: 30px;
+}
+.right{
+    width: 75%;
+    float: left;
+    line-height: 30px;
+}
+.p3{
+    font-size: 14px;
+    font-weight: 600;
+}
+.p4{
+    font-size: 12px;
+    color: var(--black);
+}
+.p5{
+    margin-top: 20px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-section">
+          <div class="profile">
+              <img src="profile.jpg" class="profile-img">
+              <div class="blue-box"></div>
+          </div>
+          <h2 class="name">Bui Thi Thuy Ngoc</h2>
+
+          <div class="info">
+              <p class="heading">Information</p>
+              <p class="p1"><span class="span1"></span> Address<span><br>441/86/25 Dien Bien Phu, 25 precinct, Binh Thanh district, Ho Chi Minh city</span></p>
+              <p class="p1"><span class="span1"></span> Phone<span><br>0987761019</span></p>
+              <p class="p1"><span class="span1"></span> Email<span><br>19521904@gm.uit.edu.vn</span></p>
+              
+          </div>
+          <div class="info">
+              <p class="heading">Social</p>
+              <p class="p1"><span class="span1"></span>Facebook<span>
+                <a href="https://www.facebook.com/ngoc.buithithuy.7"><br>facebook.com </a></span>
+            </p>
+              
+          </div>   
+      </div>
+      <div class="right-section">
+          <div class="right-heading">
+              <p class="p2"></p> Education</p> 
+          </div> 
+          <div class="clearfix"></div>
+      <div class="box_1">
+          <div class="left">
+              <p class="p3">2006-2011</p>
+              <p class="p4">Lam Dong</p>  
+          </div>
+          <div class="right">
+              <p class="p3">Kim Dong Primary School</p>
+              <p class="p4">Scholastic achievements:Good</p>  
+          </div>
+          <div class="clearfix"></div>
+      </div>   
+      <div class="box_1">
+          <div class="left">
+              <p class="p3">2011-2015</p>
+              <p class="p4">Lam Dong</p>  
+          </div>
+          <div class="right">
+              <p class="p3">Gung Re middle school</p>
+              <p class="p4">Scholastic achievements:Good</p>  
+          </div>
+          <div class="clearfix"></div>
+      </div>
+      <div class="box_1">
+          <div class="left">
+              <p class="p3">2015-2018</p>
+              <p class="p4">Lam Dong</p>  
+          </div>
+          <div class="right">
+              <p class="p3">Di Linh hight school</p>
+              <p class="p4">Scholastic achievements:Good</p>  
+          </div>
+          <div class="clearfix"></div>
+      </div>
+      <div class="box_1">
+          <div class="left">
+              <p class="p3">2019-2023</p>
+              <p class="p4">Ho Chi Minh city</p>  
+          </div>
+          <div class="right">
+              <p class="p3">University of Information Technology</p>
+              <p class="p4">Industy: Information System</p>  
+          </div>
+          <div class="clearfix"></div>
+      </div>
+      <div class="right-heading">
+          <p class="p2"></p> Achievement</p> 
+      </div> 
+      <div class="clearfix"></div>
+      <div class="box_1">
+          <div class="left">
+              <p class="p3">2023</p>  
+          </div>
+          <div class="right">
+              <p class="p3">Graduated in Information Systems</p>
+              <p class="p4">GPA: 7.22</p>  
+          </div>
+          <div class="clearfix"></div>
+      </div>   
+      <div class="right-heading">
+          <p class="p2"></p> Skills</p> 
+      </div> 
+      <div class="clearfix"></div>
+       <p class="p5">Programming language: C, C++, C#, Java, Oracle</p> 
+       <p class="p5">Know how to use database and cache technique</p>
+       <p class="p5">Design skills: prototype design, UI design or UX design</p>  
+       <p class="p5">Soft skills: communication skills, critical thinking, analytical mind and problem solving ability, time management skills</p>
+          <div class="clearfix"></div>
+      </div>   
+  </div>
+  </body>
+</html>
